@@ -11751,3 +11751,13 @@ textarea.form-control {
 ul {
   list-style-type: square;
 }
+
+.bottom-whats{
+  display: block;
+  left: auto;
+  margin: 2%;
+}
+
+.img-investigation{
+  width: inherit;
+}
