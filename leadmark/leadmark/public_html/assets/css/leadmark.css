@@ -562,25 +562,74 @@ pre code {
   margin-left: auto;
 }
 
+@media only screen and (max-width: 400px) {
+  .title-header{
+    font-size: 20px !important;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+
 @media (min-width: 576px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
   .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+
   .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+
   .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+
   .container {
     max-width: 1140px;
   }
@@ -2115,6 +2164,15 @@ pre code {
 }
 
 @media (max-width: 767.98px) {
+  .title-header{
+    font-size: 19px !important;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px !important;
+  }
+
   .table-responsive-md {
     display: block;
     width: 100%;
@@ -2127,6 +2185,15 @@ pre code {
 }
 
 @media (max-width: 991.98px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+
   .table-responsive-lg {
     display: block;
     width: 100%;
@@ -2139,6 +2206,15 @@ pre code {
 }
 
 @media (max-width: 1199.98px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -4729,6 +4805,15 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 767.98px) {
+  .title-header{
+    font-size: 20px;
+    font-weight: 100;
+  }
+  
+  .subtitle-header{
+    font-size: 20px;
+  }
+  
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
     padding-right: 0;
@@ -11760,4 +11845,29 @@ ul {
 
 .img-investigation{
   width: inherit;
+}
+
+.title-header{
+  font-size: 80px;
+  font-weight: 300;
+}
+
+.subtitle-header{
+  font-size: 4rem;
+}
+
+.font-text{
+  font-size: 25px;
+}
+
+.folowme-icons{
+  list-style: none;
+}
+
+.folowme-icons li{
+  margin-top: 10px;
+}
+
+.folowme-icons a:hover{
+  color: white !important;
 }
