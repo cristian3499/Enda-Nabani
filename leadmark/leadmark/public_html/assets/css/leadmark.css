@@ -11871,3 +11871,7 @@ ul {
 .folowme-icons a:hover{
   color: white !important;
 }
+
+#sendMail{
+  opacity: 0;
+}
